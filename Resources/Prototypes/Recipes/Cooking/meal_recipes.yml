@@ -197,6 +197,16 @@
   solids:
     FoodDoughCottonSlice: 1
 
+    - type: microwaveMealRecipe
+  id: RecipeChekushkaBurger
+  name: chekushkaburgerrecipe
+  result: FoodBurgerVodka
+  time: 10
+  group: Savory
+  solids:
+    FoodBreadBun: 1
+    DrinkVodkaBottleFull: 1
+
 #Bagels
 - type: microwaveMealRecipe
   id: RecipeBagel
