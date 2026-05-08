@@ -281,6 +281,34 @@
 # Tastes like bun, bacon.
 
 - type: entity
+  name: ЧекушкоБургер
+  parent: FoodBurgerBase
+  id: FoodBurgerVodka
+  description: Бургер из чекушки
+  components:
+  - type: Sprite
+    state: chekushka
+  - type: FlavorProfile
+    flavors:
+      - bun
+      - DrinkVodkaBottleFull
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 19
+        - ReagentId: Vitamin
+          Quantity: 5
+        - ReagentId: Vodka
+          Quantity: 40
+  - type: Tag
+    tags:
+    - Meat
+# На вкус как чекушка и бургер
+
+- type: entity
   name: baseball burger
   parent: FoodBurgerBase
   id: FoodBurgerBaseball
