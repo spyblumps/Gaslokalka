@@ -66,16 +66,16 @@
   - type: Organ
     onAdd:
     - type: HitscanBatteryAmmoProvider
-      proto: RedLightLaser
-      fireCost: 50
+      proto: Pulse
+      fireCost: 0
     - type: BatterySelfRecharger
       autoRecharge: true
-      autoRechargeRate: 25
+      autoRechargeRate: 50
     - type: Battery
       maxCharge: 100
       startingCharge: 0
     - type: Gun
-      fireRate: 1
+      fireRate: 5
       useKey: false
       selectedMode: SemiAuto
       availableModes:
