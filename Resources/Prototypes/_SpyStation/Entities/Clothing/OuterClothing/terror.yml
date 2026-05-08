@@ -1,0 +1,30 @@
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterTerror
+  name: кожаный плащ Тирана
+  description: Цель привыше любого средства.
+  components:
+  - type: Sprite
+    sprite: _SpyStation\Clothing\OuterClothing\Terror\terror.rsi
+  - type: Clothing
+    sprite: _SpyStation\Clothing\OuterClothing\Terror\terror.rsi
+  - type: StorageFill
+    contents:
+    - id: ClothingHeadHatFedoraTerror
+
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFedoraTerror
+  name: кожаная федоа
+  description: Цель привыше любой цены.
+  components:
+  - type: Sprite
+    sprite: _SpyStation\Clothing\OuterClothing\Terror\terrorfedora.rsi
+  - type: Clothing
+    sprite: _SpyStation\Clothing\OuterClothing\Terror\terrorfedora.rsi
+  - type: Tag #лол. из хамелиона убрал :skull:
+    tags:
+    - ClothMade
+    - HamsterWearable

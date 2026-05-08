@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJucket
+  name: куртка задиры
+  description: От него пахнет кровью, водкой и чистой ненавистью....
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/OuterClothing/jucket.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/OuterClothing/jucket.rsi
