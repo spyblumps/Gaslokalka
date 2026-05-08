@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterStormCoat
+  name: "плащ надвигающейся бури"
+  description: "Тёмный плащ с тёмно-бирюзовым узором и оранжевой подложкой. Нося его вы ощущаете невероятную мощь."
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/OuterClothing/storm_coat.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/OuterClothing/storm_coat.rsi

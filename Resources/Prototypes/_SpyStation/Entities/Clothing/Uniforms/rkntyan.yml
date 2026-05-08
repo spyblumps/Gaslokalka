@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRKN
+  name: униформа руководителя по надзору в сфере связи
+  description: Если вы наденете этото комбинезон, то вам захочется что-нибудь заблокировать, например, станцию 14.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Uniforms/rkn-tyan.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Uniforms/rkn-tyan.rsi

@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGhost
+  name: маска призрака
+  description: Страшная белая маска, я думаю, или её не использовали для развлечения.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Mask/ghostmask.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Mask/ghostmask.rsi
+  - type: IdentityBlocker
