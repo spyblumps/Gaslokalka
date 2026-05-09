@@ -8,17 +8,13 @@
   components:
     - type: AmmoCounter
     - type: GrapplingGunHunter
-      maxRange: 12
-      reelStopDistance: 3
-      requireWieldedHands: true
+      maxRange: 80
+      reelStopDistance: 0
       applyStunOnAttach: false
     - type: Gun
       soundGunshot: /Audio/Weapons/Guns/Gunshots/harpoon.ogg
       fireRate: 0.3
       clumsyProof: true
-    - type: Wieldable
-      unwieldOnUse: false
-    - type: GunRequiresWield
     - type: BasicEntityAmmoProvider
       proto: GrapplingHookHunter
       capacity: 1
@@ -29,8 +25,6 @@
         - state: base-unshaded
           map: [ "unshaded" ]
           visible: true
-    - type: UseDelay
-      delay: 2
     - type: Appearance
     - type: GenericVisualizer
       visuals:
