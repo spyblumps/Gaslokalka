@@ -124,6 +124,13 @@
   name: Urist McHands
   parent: BaseMobHuman
   id: MobHuman
+    components:
+  - type: HTN
+    rootTask:
+      task: SimpleHumanoidHostileCompound
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
   
 #Syndie
 - type: entity
