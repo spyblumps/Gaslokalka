@@ -147,7 +147,6 @@
       - id: DoubleEmergencyNitrogenTankFilled
       - id: DoubleEmergencyPlasmaTankFilled
 
-
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelTennisGame
@@ -166,3 +165,33 @@
       amount: 2
     - id: CrayonRainbow
       amount: 1
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelContractorBundle
+  name: Contractor bundle
+  description: "Contractor Bundle."
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitContractor
+      - id: ClothingMaskGasSyndicate
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+      - id: DoubleEmergencyPlasmaTankFilled
+      - id: ClothingHandsGlovesCombat
+      - id: AgentIDCard
+      - id: RadioJammer
+      - id: BaseUplinkContractor
+      - id: ContractorBaton
+      - id: ClothingMaskGasVoiceChameleon
+      - id: ClothingUniformJumpsuitChameleon
+      - id: ClothingEyesThermalVisionGogglesSyndie
+      - id: UplinkLighterBox
+      - id: CigPackSyndicate 
+      - id: Zipties
+      - id: Zipties
+      - id: Zipties
+      - id: Zipties
+
+

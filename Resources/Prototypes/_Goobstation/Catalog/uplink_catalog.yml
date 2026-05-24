@@ -1230,6 +1230,24 @@
 # Deception
 
 - type: listing
+  id: UplinkClothingBackpackDuffelContractorBundle
+  name: contractor-bundle-name
+  description: contractor-bundle-desc
+  productEntity: ClothingBackpackDuffelContractorBundle
+  cost:
+    Telecrystal: 100
+  categories:
+  - UplinkDeception
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - ContractorUplink
+      - NukeOpsUplink
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
   id: UplinkClothingExplosiveGloves
   name: uplink-clothing-explosive-gloves-name
   description: uplink-clothing-explosive-gloves-desc
