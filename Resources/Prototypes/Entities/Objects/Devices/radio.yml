@@ -71,3 +71,22 @@
   - type: Item
     sprite: Objects/Devices/securityhandy.rsi
     heldPrefix: walkietalkie
+
+- type: entity
+  name: handheld radio
+  description: A handy handheld radio.
+  parent: [ RadioHandheld ]
+  id: RadioHandheldSyndicate
+  components:
+  - type: RadioMicrophone
+    broadcastChannel: Syndicate
+    listenRange: 1
+  - type: RadioSpeaker
+    channels:
+    - Syndicate
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: walkietalkie
+

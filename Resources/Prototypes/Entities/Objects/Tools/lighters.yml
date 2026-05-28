@@ -337,7 +337,7 @@
 
 - type: entity
   abstract: true
-  parent: BaseItem
+  parent: [BaseItem, FlippoLighter]
   id: BaseBrandedLighter
   components:
   - type: ItemToggle

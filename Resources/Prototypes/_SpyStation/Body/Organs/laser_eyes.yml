@@ -1,0 +1,149 @@
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesXray
+  name: Лазеры из глаз иксрейность
+  components:
+  - type: Organ
+    onAdd:
+    - type: HitscanBatteryAmmoProvider
+      proto: XrayLaser
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesHeavy
+  name: Лазеры из глаз Жирность
+  components:
+  - type: Organ
+    onAdd:
+    - type: HitscanBatteryAmmoProvider
+      proto: RedHeavyLaser
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesMostHeavy
+  name: Лазеры из глаз САМАЯ ЖИРНОСТЬ И МОЩНОСТЬ
+  components:
+  - type: Organ
+    onAdd:
+    - type: HitscanBatteryAmmoProvider
+      proto: RedShuttleLaser
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesGrey
+  name: Лазеры из глаз серые с лавы типо
+  components:
+  - type: Organ
+    onAdd:
+    - type: ProjectileBatteryAmmoProvider
+      proto: WatcherBoltMagmawing
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesRedProjectiles
+  name: Лазеры из глаз красные проджектайлы
+  components:
+  - type: Organ
+    onAdd:
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletEnergyTurretLaser
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+- type: entity
+  parent: OrganHumanEyes
+  id: OrganLaserEyesBlueProjectiles
+  name: Лазеры из глаз синие проджектайлы
+  components:
+  - type: Organ
+    onAdd:
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletDisablerButNotDisabler
+      fireCost: 0
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 50
+    - type: Battery
+      maxCharge: 100
+      startingCharge: 0
+    - type: Gun
+      fireRate: 5
+      useKey: false
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+
+
+
+
+
+
