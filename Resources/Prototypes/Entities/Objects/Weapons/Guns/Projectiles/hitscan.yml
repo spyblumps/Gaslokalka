@@ -174,8 +174,8 @@
   impactFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_beam_heavy2
-    - type: hitscan
-    
+
+- type: hitscan
   id: SlashHitscan
   maxLength: 100
   damage:

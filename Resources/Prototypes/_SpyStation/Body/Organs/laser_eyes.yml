@@ -142,7 +142,7 @@
         - SemiAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
 
-      - type: entity
+- type: entity
   parent: OrganHumanEyes
   id: OrganLaserEyesMostHeavy
   name: Лазеры из глаз САМАЯ ЖИРНОСТЬ И МОЩНОСТЬ
