@@ -1,0 +1,43 @@
+# SPDX-FileCopyrightText: 2026 Elarten <matv20102010@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineDonk
+  name: Donk Co Vendor
+  description: A snack machine courtesy of Donk Co.
+  components:
+  - type: VendingMachine
+    pack: DonkInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    denyState: deny-unshaded
+    ejectDelay: 0.6
+  - type: DatasetVocalizer
+    dataset: DonkAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _SpyStation/Structures/Machines/VendingMachines/donkvend.rsi
+    noRot: true
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 2
+    energy: 1.6
+    color: "#ffa600"
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+  - type: Transform
+    noRot: false
+  - type: Rotatable
+    rotateWhileAnchored: false
+    rotateWhilePulling: true

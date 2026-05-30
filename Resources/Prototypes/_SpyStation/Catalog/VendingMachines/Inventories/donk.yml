@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 Elarten <matv20102010@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vendingMachineInventory
+  id: DonkInventory
+  startingInventory:
+    FoodDonkpocket: 4
+    FoodDonkpocketPizza: 4
+    FoodDonkpocketSpicy: 4
+    FoodDonkpocketTeriyaki: 4
+    FoodDonkpocketBerry: 4
+    FoodDonkpocketHonk: 4
+    FoodDonkpocketMoth: 4
+  emaggedInventory:
+    Stimpack: 2
+    SyndicateLollypopBundle: 1
+  contrabandInventory:
+    DonkcoLighter: 1
+    ClothingNeckDonkPin: 1
+    FoodBoxDonkpocketStonk: 1 

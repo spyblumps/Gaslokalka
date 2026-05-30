@@ -144,30 +144,6 @@
 
 - type: entity
   parent: OrganHumanEyes
-  id: OrganLaserEyesMostHeavy
-  name: Лазеры из глаз САМАЯ ЖИРНОСТЬ И МОЩНОСТЬ
-  components:
-  - type: Organ
-    onAdd:
-    - type: HitscanBatteryAmmoProvider
-      proto: RedShuttleLaser
-      fireCost: 0
-    - type: BatterySelfRecharger
-      autoRecharge: true
-      autoRechargeRate: 50
-    - type: Battery
-      maxCharge: 100
-      startingCharge: 0
-    - type: Gun
-      fireRate: 5
-      useKey: false
-      selectedMode: SemiAuto
-      availableModes:
-        - SemiAuto
-      soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
-
-- type: entity
-  parent: OrganHumanEyes
   id: OrganLaserEyesSlash
   name: Лазеры из глаз порезы 
   components:

@@ -104,7 +104,9 @@
     tags:
     - DonkPocket
     - Meat
-
+  - type: Extractable
+    grindableSolutionName: food
+    
 # Donkpocket
 
 # Warm gives +5 nutriment.
