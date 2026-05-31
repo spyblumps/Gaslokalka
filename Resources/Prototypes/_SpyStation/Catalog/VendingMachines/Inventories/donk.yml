@@ -19,3 +19,25 @@
     DonkcoLighter: 1
     ClothingNeckDonkPin: 1
     FoodBoxDonkpocketStonk: 1 
+    FloorCarpetItemDonk: 30
+
+- type: vendingMachineInventory
+  id: DonkToyInventory
+  startingInventory:
+    EmagFake: 2
+    ToySword: 2
+    GrenadeFoamDart: 4
+    WeaponRifleFoam: 2
+    FoamBlade: 4
+    FoamCrossbow: 4
+    BoxDonkSoftBox: 5
+    RevolverCapGun: 3
+    SpeedLoaderCap: 8
+  emaggedInventory:
+    WeaponSubMachineGunC20rToy: 1
+    MagazinePistolSubMachineGunFoam: 3
+  contrabandInventory:
+    SingularityToy: 1
+    FoamWonderprod: 1 
+    HappyHonkNukieSnacks: 1
+

@@ -7,3 +7,10 @@
   values:
     prefix: advertisement-donk-
     count: 2
+
+- type: localizedDataset
+  id: DonkToyAds
+  values:
+    prefix: advertisement-donk-toy-
+    count: 10
+

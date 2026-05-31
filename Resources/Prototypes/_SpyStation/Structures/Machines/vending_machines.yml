@@ -14,7 +14,7 @@
     brokenState: broken
     normalState: normal-unshaded
     denyState: deny-unshaded
-    ejectDelay: 0.6
+    ejectDelay: 0.9
   - type: DatasetVocalizer
     dataset: DonkAds
   - type: SpeakOnUIClosed
@@ -41,3 +41,44 @@
   - type: Rotatable
     rotateWhileAnchored: false
     rotateWhilePulling: true
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineDonkToy
+  name: Syndicate Donksoft Toy Vendor
+  description: An ages 8 and up approved vendor that dispenses toys. If you were to find the right wires, you can unlock the adult mode setting
+  components:
+  - type: VendingMachine
+    pack: DonkToyInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    denyState: deny-unshaded
+    ejectDelay: 0.9
+  - type: DatasetVocalizer
+    dataset: DonkToyAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _SpyStation/Structures/Machines/VendingMachines/donktoyvend.rsi
+    noRot: true
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 2
+    energy: 1.6
+    color: "#bb0000"
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+  - type: Transform
+    noRot: false
+  - type: Rotatable
+    rotateWhileAnchored: false
+    rotateWhilePulling: true
+

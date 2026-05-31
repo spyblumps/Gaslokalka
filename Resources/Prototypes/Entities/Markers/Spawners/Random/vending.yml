@@ -48,6 +48,7 @@
     - VendingMachineStarkist
     - VendingMachineSweetToof # Goobstation
     - VendingMachineDonk # SpyStation
+    - VendingMachineDonkToy
     chance: 1
 
 

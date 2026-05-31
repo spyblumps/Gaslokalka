@@ -1,0 +1,93 @@
+- type: entity
+  name: C-20R toy
+  parent: BaseWeaponSubMachineGun
+  id: WeaponSubMachineGunC20rToy
+  description: The right hand of those who fight under the three serpents. A one-handed, bullpup SMG from the Waffle Corporation that sacrifices accuracy for pure firerate. Feeds from .35 Foam magazines.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
+  - type: Gun
+    shotsPerBurst: 5
+    availableModes:
+    - Burst
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+    allowedMagazines:
+    - MagazinePistolSubMachineGunFoam
+    allowedEntities:
+    - BulletPistolFoam
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance
+  - type: Item # Goobstation
+    shape:
+    - 0,0,2,1
+  - type: StaticPrice
+    price: 3000
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: MagazinePistolSubMachineGunFoam
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolSubMachineGunFoam
+
+- type: entity
+  id: MagazinePistolSubMachineGunFoam
+  name: SMG magazine (.35 auto foam)
+  parent: BaseMagazinePistolSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: BulletPistolFoam
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: stripe
+      color: "#ea00ff"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#ea00ff"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#ea00ff"
+  - type: Tag
+    tags:
+      - MagazinePistolSubMachineGunFoam
+
+- type: entity
+  id: BulletPistolFoam
+  parent: BaseBulletRubber
+  name: bullet (.35 auto foam)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+  - type: StaminaDamageModifierOnCollide
+    staminaCoefficient: 15
