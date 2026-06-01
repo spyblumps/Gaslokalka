@@ -15,6 +15,7 @@
 # SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 BeeRobynn <166929042+BeeRobynn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 EXNK4650 <github.com/Leva0408>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -118,6 +119,7 @@
       - PosterContrabandGoobChuckler # Goobstation
       - PosterContrabandGoobYakub # Goobstation
       - PosterContrabandGoobRedFOSS # Goobstation
+      - PosterContrabandPosterRed # SpyStation
     chance: 1
 
 - type: entity
@@ -202,4 +204,5 @@
       - PosterLegitOppenhopper
       - PosterLegitTyrone
       - PosterLegitHelio
+      - PosterContrabandPosterRed # SpyStation
     chance: 1
