@@ -284,7 +284,7 @@
   - type: Gun
     fireRate: 5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+      path: /Audio/_SpyStation/weapons/lekter_fire.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
