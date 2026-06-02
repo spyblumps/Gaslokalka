@@ -109,10 +109,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- files: ["lokalka.ogg"]
+- files: ["thunderdome.ogg"]
   license: "CC-BY-NC-SA-3.0"
-  copyright: "FOREVER"
-  source: "FJQEJWEWQK"
+  copyright: "-Sector11 by MashedByMachines. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/312622"
 
 - files: ["endless_space.ogg"]
   license: "CC-BY-3.0"
@@ -249,3 +249,8 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "The Future Soon by Jonathan Coulton"
   source: "https://www.youtube.com/watch?v=l5PEz3kGbp4"
+
+- files: ["rippedjeans.ogg"]
+  license: "custom"
+  copyright: "Элджей"
+  source: "https://www.youtube.com/watch?v=D9y-v4Mn8tY"

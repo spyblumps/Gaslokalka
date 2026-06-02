@@ -30,7 +30,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+      path: /Audio/_SpyStation/weapons/unclestepa_fire.ogg
       params:
         pitch: 1.5
     resetOnHandSelected: false

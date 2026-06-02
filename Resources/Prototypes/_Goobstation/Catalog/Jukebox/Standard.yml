@@ -330,3 +330,9 @@
   name: mrjajkes - One Against All
   path:
     path: /Audio/StationEvents/one_against_all.ogg
+
+- type: jukebox
+  id: rippedjeans
+  name: Элджей - Рваные джинсы
+  path:
+    path: /Audio/Lobby/rippedjeans.ogg
