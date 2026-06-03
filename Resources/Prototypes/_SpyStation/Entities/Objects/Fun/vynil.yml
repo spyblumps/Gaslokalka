@@ -41,3 +41,14 @@
   - type: Vinyl
     song:
       path: /Audio/_SpyStation/vynils/meshaplocal.ogg
+
+- type: entity
+  name: "Рваные джинсы, чуть громче"
+  id: VinylDiskrippedjeans
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: darkblue-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/rippedjeans.ogg

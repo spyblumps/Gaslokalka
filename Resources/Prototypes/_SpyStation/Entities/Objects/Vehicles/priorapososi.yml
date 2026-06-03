@@ -1,0 +1,76 @@
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Fishbait <Fishbait@git.ml>
+# SPDX-FileCopyrightText: 2025 fishbait <gnesse@gmail.com>
+# SPDX-FileCopyrightText: 2025 EXNK4650 <github.com/Leva0408/>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+
+- type: entity
+  id: VehiclePrioraPososi
+  parent: BaseVehicle
+  name: ПриораПососи
+  description: "ЧЁТКИЙ БЛЯДЕЙ НЕ ВОЗИТ, #СЕЛА=ДАЛА, СЕЛО РУЛИТ"
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Vehicles/priorapososi.rsi
+    state: vehicle
+    noRot: true
+  - type: Vehicle
+    renderOver: North, NorthEast, East, SouthEast, South, SouthWest, West, NorthWest
+    requiredHands: 0
+    hornSound:
+      collection: DeskBell
+      params:
+        variation: 0.125
+    sirenSound:
+      collection: PoliceSiren
+      params:
+        variation: 0.125
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - VehicleKeyPrioraPososi
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: 10
+  - type: UnpoweredFlashlight
+  - type: PointLight
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    radius: 3.5
+    softness: 2
+    netsync: false
+  - type: Jukebox
+  - type: ActivatableUI
+    key: enum.JukeboxUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.JukeboxUiKey.Key:
+        type: JukeboxBoundUserInterface
+
+- type: entity
+  parent: [BaseKey, VinylDiskrippedjeans]
+  id: VehicleKeyPrioraPososi
+  name: ключи от ПриораПососи
+  description: Ключи от ПриораПососи которые обладают модификаторами многофункциОнальные и газовые.   
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Vehicles/priorapososi.rsi
+    state: keys
+  - type: Tag
+    tags:
+    - VehicleKeyPrioraPososi
+    - VehicleKey
+    - SecwayKeys
+    - SyndicateSegwayKeys
+    - ATVKeys
+    - JanicartKeys
+    - ForkliftKeys
