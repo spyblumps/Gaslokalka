@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Leva0408/Gaslokalka/1d5204c4e34b6713524bf5aaae6804e76898d5f5/Resources/Textures/_SpyStation/Logo/github.svg" /></p>
-=======
 <p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/spyblumps/Gaslokalka/1d5204c4e34b6713524bf5aaae6804e76898d5f5/Resources/Textures/_SpyStation/Logo/github.svg" /></p>
->>>>>>> 7477c21ec2663f6feb483dee98ce6a37fef34057
 
 Gaslokalka - это самый газовый и основывающийся форк от всем изестного репозитория CorvaxGoob. 
 
