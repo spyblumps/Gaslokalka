@@ -11,3 +11,13 @@
   - type: Sprite
     sprite: _SpyStation/Structures/Wallmounts/posters.rsi
     state: poster_red
+
+- type: entity
+  parent: PosterBase
+  id: PosterContrabandPosterGreen
+  name: "Зелёный человечек"
+  description: "Это зелёный человечек."
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Wallmounts/posters.rsi
+    state: poster_green
