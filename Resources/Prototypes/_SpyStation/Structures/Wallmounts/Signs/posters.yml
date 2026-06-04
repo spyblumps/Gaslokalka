@@ -21,3 +21,13 @@
   - type: Sprite
     sprite: _SpyStation/Structures/Wallmounts/posters.rsi
     state: poster_green
+
+- type: entity
+  parent: PosterBase
+  id: PosterContrabandPosterDemkaObosralsa
+  name: "Демкость обосратость"
+  description: "Демка обосрался прямо в войсе."
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Wallmounts/posters.rsi
+    state: poster_demka_obosralsa
