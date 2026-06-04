@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "license": "CC-BY-NC-SA-3.0",
+    "copyright": "Sprite by spy_fan_№65",
+    "size": {
+        "x": 128,
+        "y": 128
+    },
+    "scale": 0.25,
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "equipped-HELMET",
+            "directions": 1
+        },
+        {
+            "name": "inhand-left",
+            "directions": 1
+        },
+        {
+            "name": "inhand-right",
+            "directions": 1
+        }
+    ]
+}
