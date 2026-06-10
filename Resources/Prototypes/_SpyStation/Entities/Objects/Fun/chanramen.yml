@@ -1,0 +1,18 @@
+- type: entity
+  parent: BaseItem
+  id: ChanRamen
+  name: "Чан Рамен чашка [В РАЗРАБОТКЕ]"
+  description: "Чан Рамен - это популярное и удобное решение для утоления голода на ходу, будь то плотный обед на обломке или быстрый ужин на станции. Для приготовления согрейте в микроволновке."
+  components:
+    - type: Sprite
+      sprite: _SpyStation/Objects/Fun/Food/chanramen.rsi
+      state: chanramen
+    - type: Battery
+      maxCharge: 1
+      startingCharge: 1
+    - type: Riggable
+    - type: Explosive
+      explosionType: Default
+      totalIntensity: 20.0
+      intensitySlope: 5
+      maxIntensity: 4

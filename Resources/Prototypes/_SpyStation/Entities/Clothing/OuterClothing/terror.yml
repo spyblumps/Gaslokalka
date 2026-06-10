@@ -6,9 +6,9 @@
   description: Цель привыше любого средства.
   components:
   - type: Sprite
-    sprite: _SpyStation\Clothing\OuterClothing\Terror\terror.rsi
+    sprite: _SpyStation/Clothing/OuterClothing/Terror/terror.rsi
   - type: Clothing
-    sprite: _SpyStation\Clothing\OuterClothing\Terror\terror.rsi
+    sprite: _SpyStation/Clothing/OuterClothing/Terror/terror.rsi
   - type: StorageFill
     contents:
     - id: ClothingHeadHatFedoraTerror
@@ -21,10 +21,12 @@
   description: Цель привыше любой цены.
   components:
   - type: Sprite
-    sprite: _SpyStation\Clothing\OuterClothing\Terror\terrorfedora.rsi
+    sprite: _SpyStation/Clothing/OuterClothing/Terror/terrorfedora.rsi
   - type: Clothing
-    sprite: _SpyStation\Clothing\OuterClothing\Terror\terrorfedora.rsi
+    sprite: _SpyStation/Clothing/OuterClothing/Terror/terrorfedora.rsi
   - type: Tag #лол. из хамелиона убрал :skull:
     tags:
     - ClothMade
     - HamsterWearable
+
+# демка пофиксил клиент, но не закинул на гитхаб, пришлось мне менять файл, заебался без клиента жить

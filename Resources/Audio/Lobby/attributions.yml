@@ -106,6 +106,7 @@
 # SPDX-FileCopyrightText: 2025 username <113782077+whateverusername0@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 whateverusername0 <whateveremail>
 # SPDX-FileCopyrightText: 2025 yglop <95057024+yglop@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 EXNK4650 <github.com/Leva0408>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -254,3 +255,8 @@
   license: "custom"
   copyright: "Элджей"
   source: "https://www.youtube.com/watch?v=D9y-v4Mn8tY"
+
+- files: ["khlamidiya.ogg"]
+  license: "custom"
+  copyright: "5opka & MellSher"
+  source: "https://music.yandex.ru/album/23713700" # на самом деле скачана с хитмоса.. 

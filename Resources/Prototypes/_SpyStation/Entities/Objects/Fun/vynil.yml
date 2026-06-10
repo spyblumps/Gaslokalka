@@ -1,5 +1,5 @@
 - type: entity
-  name: "Lokalka Motto"
+  name: Виниловая пластинка "Lokalka Motto"
   id: VinylDiskLokalkaMotto
   parent: BaseVinylDisk
   components:
@@ -10,7 +10,7 @@
       path: /Audio/_SpyStation/vynils/lokalkadeviz.ogg
 
 - type: entity
-  name: "Lokalka Slogan"
+  name: Виниловая пластинка "Lokalka Slogan"
   id: VinylDiskLokalkaSlogan
   parent: BaseVinylDisk
   components:
@@ -21,7 +21,7 @@
       path: /Audio/_SpyStation/vynils/lokalkaslogan.ogg
 
 - type: entity
-  name: "Lokalka Hymn"
+  name: Виниловая пластинка "Lokalka Hymn"
   id: VinylDiskLokalkaHymn
   parent: BaseVinylDisk
   components:
@@ -32,7 +32,7 @@
       path: /Audio/_SpyStation/vynils/lokalkagimn.ogg
 
 - type: entity
-  name: "Lokalka MeshUp"
+  name: Виниловая пластинка "Lokalka MeshUp"
   id: VinylDiskLokalkaMeshup
   parent: BaseVinylDisk
   components:
@@ -43,7 +43,7 @@
       path: /Audio/_SpyStation/vynils/meshaplocal.ogg
 
 - type: entity
-  name: "Рваные джинсы, чуть громче"
+  name: Виниловая пластинка "Рваные джинсы, чуть громче"
   id: VinylDiskrippedjeans
   parent: BaseVinylDisk
   components:
@@ -52,3 +52,32 @@
   - type: Vinyl
     song:
       path: /Audio/Lobby/rippedjeans.ogg
+
+- type: entity
+  name: конверт для пластинки "Рваные джинсы, чуть громче"
+  id: Vinylrippedjeans
+  parent: BaseVinylSleeve
+  components:
+  - type: Sprite
+    state: rippedjeans-vinyl-sleeve
+    sprite: _SpyStation/Objects/Misc/RadioStation/vinylsleeves.rsi
+
+- type: entity
+  name: Виниловая пластинка "Хламидия"
+  id: VinylDiskKhlamidiya
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: glossy-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/khlamidiya.ogg
+
+- type: entity
+  name: конверт для пластинки "Хламидия"
+  id: VinylKhlamidiya
+  parent: BaseVinylSleeve
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Misc/RadioStation/vinylsleeves.rsi
+    state: khlamidiya-vinyl-sleeve

@@ -336,3 +336,9 @@
   name: Элджей - Рваные джинсы
   path:
     path: /Audio/Lobby/rippedjeans.ogg
+
+- type: jukebox
+  id: khlamidiya
+  name: 5opka & MellSher - Хламидия
+  path:
+    path: /Audio/Lobby/khlamidiya.ogg

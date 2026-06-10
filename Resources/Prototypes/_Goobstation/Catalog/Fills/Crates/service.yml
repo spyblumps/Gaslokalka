@@ -220,6 +220,10 @@
       weight: 1
     - id: VinylDiskWeAreNumberTwo
       weight: 1
+    - id: VinylDiskrippedjeans
+      weight: 4
+    - id: VinylDiskKhlamidiya
+      weight: 4
 
 - type: entityTable
   id: RandomVinylSleeve
@@ -299,6 +303,10 @@
       weight: 1
     - id: VinylSleeveWhite
       weight: 1
+    - id: VinylKhlamidiya
+      weight: 4
+    - id: Vinylrippedjeans
+      weight: 4
 
 - type: entity
   id: CrateHolySupplies
