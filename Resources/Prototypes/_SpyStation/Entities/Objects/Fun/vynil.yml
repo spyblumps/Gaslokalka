@@ -81,3 +81,26 @@
   - type: Sprite
     sprite: _SpyStation/Objects/Misc/RadioStation/vinylsleeves.rsi
     state: khlamidiya-vinyl-sleeve
+
+- type: entity
+  name: Виниловая пластинка "Друнштайн"
+  id: VinylDiskDrunSthine
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: pizza-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/drunshtine.ogg
+
+- type: entity
+  name: Виниловая пластинка "Бурмалдалика"
+  id: VinylDiskBurmaldalica
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: yellow-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/burmaldalica.ogg
+
