@@ -636,3 +636,88 @@
     # CorvaxGoob-Localization-Start
     - пинг
     # CorvaxGoob-Localization-End
+
+- type: emote
+  id: TolyaZanykal
+  name: chat-emote-name-tolya
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - толя чё ты там заныкал
+   - толя че ты там заныкал
+   - толя че ты там заныкал?
+   - толя чё ты там заныкал?
+
+- type: emote
+  id: Kransniy
+  name: chat-emote-name-mellstroy
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - я уже красный
+   - заебал
+
+- type: emote
+  id: SpasiboHorosho
+  name: chat-emote-name-spasibo
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - спасибо
+   - спасибо хорошо
+
+- type: emote
+  id: Idinahuy
+  name: chat-emote-name-otsuda
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - иди нахуй
+   - уйди
+   - иди нахуй отсюда животное
+   - пошёл нахуй
+
+- type: emote
+  id: Aura
+  name: chat-emote-name-aura
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - фармит ауру
+   - Aura.
+
+- type: emote
+  id: Yeehaaaw
+  name: chat-emote-name-yeehaaaw
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - йиихаа
+   - как ковбой типо
+   - газово кричит
+
+- type: emote
+  id: Allo
+  name: chat-emote-name-allo
+  whitelist:
+    components:
+    - Respirator
+  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  chatTriggers:
+   - алё
+   - говори
+   - да дура ебанная говори
+   - чё
+   - че
