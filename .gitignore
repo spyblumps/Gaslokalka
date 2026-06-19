@@ -320,3 +320,7 @@ Resources/Locale/ru-RU/_Goobstation/join-queue/queue-screen.ftl
 
 config.json
 .github/workflows/update-prs.yaml
+
+my_github_key
+my_github_key.pub
+
