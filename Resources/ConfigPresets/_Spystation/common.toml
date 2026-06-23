@@ -5,13 +5,13 @@ tickrate = 30
 limit = 25.0
 
 [infolinks]
-discord = "https://discord.ss14.ru"
-github = "https://github.com/space-syndicate/Goob-Station"
-wiki = "https://station14.ru"
-patreon = "https://boosty.to/corvax"
-appeal = "https://discord.ss14.ru"
-bug_report = "https://discord.ss14.ru"
-website = "https://ss14.ru"
+discord = "https://github.com/spyblumps/Gaslokalka"
+github = "https://github.com/spyblumps/Gaslokalka"
+wiki = "https://github.com/spyblumps/Gaslokalka"
+patreon = "https://github.com/spyblumps/Gaslokalka"
+appeal = "https://github.com/spyblumps/Gaslokalka"
+bug_report = "https://github.com/spyblumps/Gaslokalka"
+website = "https://github.com/spyblumps/Gaslokalka"
 
 [viewport]
 maximum_width = 32
