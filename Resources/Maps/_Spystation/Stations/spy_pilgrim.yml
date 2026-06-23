@@ -134,7 +134,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: NTTA Pilgrim
+      name: NTGL Pilgrim
     - type: Transform
     - type: Map
       mapPaused: True
@@ -178240,7 +178240,7 @@ entities:
 
         [color=#00cc00]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
 
-        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTTA Пилигрим[/bold]
+        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTGL Пилигрим[/bold]
 
         [color=#00cc00]░░░░██░░░████░███[/color]
 
@@ -178285,7 +178285,7 @@ entities:
 
         [color=#00cc00]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
 
-        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTTA Пилигрим[/bold]
+        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTGL Пилигрим[/bold]
 
         [color=#00cc00]░░░░██░░░████░███[/color]
 
@@ -178330,7 +178330,7 @@ entities:
 
         [color=#00cc00]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
 
-        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTTA Пилигрим[/bold]
+        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTGL Пилигрим[/bold]
 
         [color=#00cc00]░░░░██░░░████░███[/color]
 
@@ -178376,7 +178376,7 @@ entities:
         stampedColor: '#850000FF'
         stampedName: stamp-component-stamped-name-syndicate
       content: >-
-        [bold]Станция:[/bold] NTTA Pilgrim
+        [bold]Станция:[/bold] NTGL Pilgrim
 
         [bold]Позывной Агента:[/bold] Твой Диван
 
@@ -179322,7 +179322,7 @@ entities:
 
         [color=#00cc00]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
 
-        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTTA Пилигрим[/bold]
+        [color=#00cc00]░░░░██░░██░██░██░[/color]            [bold]NTGL Пилигрим[/bold]
 
         [color=#00cc00]░░░░██░░░████░███[/color]
 
@@ -179372,7 +179372,7 @@ entities:
 
         [color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
 
-        [color=#1b487e]░░░░██░░██░██░██░[/color]     [bold]NTTA Pilgrim ИНЖ-КОД[/bold]
+        [color=#1b487e]░░░░██░░██░██░██░[/color]     [bold]NTGL Pilgrim ИНЖ-КОД[/bold]
 
         [color=#1b487e]░░░░██░░░████░███[/color]
 
