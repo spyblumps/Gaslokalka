@@ -4,11 +4,12 @@
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 EXNK4650 <github.com/Leva0408>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-defaultWindowTitle: Space Station 14 - Corvax Station [RU]
-windowIconSet: /Textures/Logo/icon-ru # Corvax-Theme
-splashLogo: /Textures/_CorvaxGoob/Logo/logo.png # Corvax-Goob-LoadingScreen
+defaultWindowTitle: Space Station 65 - Gaslokalka [RU]
+windowIconSet: /Textures/_SpyStation/Logo/icon-sex-gas # Gaslokalka theme
+splashLogo: /Textures/_SpyStation/Logo/logo.png # Gaslokalka LoadingScreen
 
 # PJB PLEASE
