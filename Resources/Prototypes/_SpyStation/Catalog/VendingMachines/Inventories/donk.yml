@@ -19,7 +19,6 @@
     DonkcoLighter: 1
     ClothingNeckDonkPin: 1
     FoodBoxDonkpocketStonk: 1 
-    FloorCarpetItemDonk: 30
 
 - type: vendingMachineInventory
   id: DonkToyInventory

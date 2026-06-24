@@ -1,0 +1,58 @@
+[net]
+tickrate = 30
+
+[netres]
+limit = 25.0
+
+[infolinks]
+discord = "https://github.com/spyblumps/Gaslokalka"
+github = "https://github.com/spyblumps/Gaslokalka"
+wiki = "https://github.com/spyblumps/Gaslokalka"
+patreon = "https://github.com/spyblumps/Gaslokalka"
+appeal = "https://github.com/spyblumps/Gaslokalka"
+bug_report = "https://github.com/spyblumps/Gaslokalka"
+website = "https://github.com/spyblumps/Gaslokalka"
+
+[viewport]
+maximum_width = 32
+
+[game]
+hostname = " SpyStation | GasLokalka [LRP] [GOOB] [RUS]"
+maxplayers = 180
+soft_max_players = 90
+lobbyduration = 240
+map_pool = "CorvaxMapPool"
+round_restart_time = 180
+fallbackpreset = "secret"
+defaultpreset = "secret"
+contraband_examine = false
+
+[events]
+enabled = true
+
+[hub]
+tags = "lang:ru, rp:low, region:eu_w"
+
+[server]
+rules_file = "CorvaxRuleset"
+
+[discord]
+rich_main_icon_id = "corvax"
+
+[admin]
+see_own_notes = true
+admins_count_in_playercount = true
+
+[contraband]
+icons_enabled = false 
+
+[misc]
+space_whale_spawn = false
+
+[shuttle]
+emergency_early_launch_allowed = true
+arrivals_map = "/Maps/_CorvaxGoob/Base/Misc/corvax_terminal.yml"
+auto_call_time = 0
+
+[ragequit]
+notify = true

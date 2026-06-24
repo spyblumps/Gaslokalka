@@ -74,3 +74,11 @@
     - ATVKeys
     - JanicartKeys
     - ForkliftKeys
+
+- type: entity
+  id: SpawnPriorapososi
+  name: спавнер приоры
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - VehiclePrioraPososi

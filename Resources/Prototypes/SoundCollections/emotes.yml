@@ -111,11 +111,6 @@
   - /Audio/Items/Toys/hew.ogg
 
 - type: soundCollection
-  id: XenoborgScream
-  files:
-  - /Audio/Voice/Xenoborg/xenoborg_scream.ogg
-
-- type: soundCollection
   id: XenoborgLaugh
   files:
   - /Audio/Voice/Xenoborg/xenoborg_laugh_1.ogg
@@ -152,3 +147,28 @@
   id: XenoborgPing
   files:
   - /Audio/Voice/Xenoborg/xenoborg_ping.ogg
+
+- type: soundCollection
+  id: TolyaZanykal
+  files:
+    - /Audio/Voice/Human/tolya.ogg
+
+- type: soundCollection
+  id: Kransniy
+  files:
+    - /Audio/Voice/Human/ia-uzhe-krasnyi.ogg
+
+- type: soundCollection
+  id: SpasiboHorosho
+  files:
+    - /Audio/Voice/Human/spasibo-khorosho-melstroi.ogg
+
+- type: soundCollection
+  id: Idinahuy
+  files:
+    - /Audio/Voice/Human/idi-nahuy.ogg
+
+- type: soundCollection
+  id: Aura
+  files:
+    - /Audio/Voice/Human/aura.ogg
