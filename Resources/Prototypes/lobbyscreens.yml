@@ -28,3 +28,9 @@
   background: /Textures/_SpyStation/LobbyScreens/valve.webp
   name: Валв
   artist: SpyBlumps
+
+- type: lobbyBackground 
+  id: gassy
+  background: /Textures/_SpyStation/LobbyScreens/gassy.webp
+  name: ИнкридиблГаззи
+  artist: SpyBlumps
