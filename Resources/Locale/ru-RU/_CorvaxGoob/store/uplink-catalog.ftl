@@ -17,3 +17,6 @@ uplink-stamp-chameleon-desc = Универсальная печать, что м
 
 uplink-toolbox-electrical-turret-name = Чертёж разворачиваемой баллистической турели
 uplink-toolbox-electrical-turret-desc = Чертёж, который позволит автолату печатать разворачиваемую баллистическую турель.
+
+uplink-syndi-wristwatch-name = Часы агента внедрения
+uplink-syndi-wristwatch-desc = Стильные наручные часы, светящиеся в темноте. Имеют слот для скрытного хранения одной ID-карты, а так же встроенный портативный датчик слежения.

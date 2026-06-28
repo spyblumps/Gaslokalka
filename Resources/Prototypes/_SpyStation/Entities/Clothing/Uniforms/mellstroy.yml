@@ -1,0 +1,11 @@
+
+- type: entity
+  name: Футболка Меллстроя
+  description: Шо ты лыси плаки плаки
+  id: ClothingUniformMellstroy
+  parent: ClothingUniformBase
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Uniforms/mellstroytshirt.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Uniforms/mellstroytshirt.rsi
