@@ -51,7 +51,7 @@
     state: darkblue-vinyl-disk
   - type: Vinyl
     song:
-      path: /Audio/Lobby/rippedjeans.ogg
+      path: /Audio/_SpyStation/vynils/rippedjeans.ogg
 
 - type: entity
   name: конверт для пластинки "Рваные джинсы, чуть громче"
@@ -71,7 +71,7 @@
     state: glossy-vinyl-disk
   - type: Vinyl
     song:
-      path: /Audio/Lobby/khlamidiya.ogg
+      path: /Audio/_SpyStation/vynils/khlamidiya.ogg
 
 - type: entity
   name: конверт для пластинки "Хламидия"
@@ -103,4 +103,24 @@
   - type: Vinyl
     song:
       path: /Audio/_SpyStation/vynils/burmaldalica.ogg
+
+- type: entity
+  name: Виниловая пластинка "Полный бак"
+  id: VinylDiskPolnyyBak
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: lightblue-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/polnyybak.ogg
+  
+- type: entity
+  name: конверт для пластинки "Полный бак"
+  id: VinylPolnyyBak
+  parent: BaseVinylSleeve
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Misc/RadioStation/vinylsleeves.rsi
+    state: polnyybak-vinyl-sleeve
 

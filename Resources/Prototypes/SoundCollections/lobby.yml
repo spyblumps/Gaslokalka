@@ -111,6 +111,7 @@
 # SPDX-FileCopyrightText: 2025 username <113782077+whateverusername0@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 whateverusername0 <whateveremail>
 # SPDX-FileCopyrightText: 2025 yglop <95057024+yglop@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 EXNK4650 <github.com/Leva0408>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -148,10 +149,11 @@
   # - /Audio/Lobby/the_future_soon.ogg
   # - /Audio/Lobby/horn.ogg
    # ДА БУДЕТ СПАЙСТЕЙШОН МУЗИК
-  - /Audio/Lobby/rippedjeans.ogg
-  - /Audio/Lobby/khlamidiya.ogg
+  - /Audio/_SpyStation/vynils/rippedjeans.ogg
+  - /Audio/_SpyStation/vynils/khlamidiya.ogg
   - /Audio/Lobby/incredible_gassy.ogg
   - /Audio/_SpyStation/vynils/meshaplocal.ogg
   - /Audio/_SpyStation/vynils/lokalkaslogan.ogg
   - /Audio/_SpyStation/vynils/lokalkagimn.ogg
   - /Audio/_SpyStation/vynils/lokalkadeviz.ogg
+  - /Audio/_SpyStation/vynils/polnyybak.ogg

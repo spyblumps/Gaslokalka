@@ -251,12 +251,17 @@
   copyright: "The Future Soon by Jonathan Coulton"
   source: "https://www.youtube.com/watch?v=l5PEz3kGbp4"
 
-- files: ["rippedjeans.ogg"]
+- files: ["/Audio/_SpyStation/vynils/rippedjeans.ogg"]
   license: "custom"
   copyright: "Элджей"
   source: "https://www.youtube.com/watch?v=D9y-v4Mn8tY"
 
-- files: ["khlamidiya.ogg"]
+- files: ["/Audio/_SpyStation/vynils/khlamidiya.ogg"]
   license: "custom"
   copyright: "5opka & MellSher"
-  source: "https://music.yandex.ru/album/23713700" # на самом деле скачана с хитмоса.. 
+  source: "https://music.yandex.ru/album/23713700" # на самом деле скачано с хитмоса.. 
+
+- - files: ["/Audio/_SpyStation/vynils/polnyybak.ogg"]
+    license: "custom"
+    copyright: "BUSTER"
+    source: "https://music.yandex.ru/album/20906654/" # на самом деле скачано с хитмоса.. 

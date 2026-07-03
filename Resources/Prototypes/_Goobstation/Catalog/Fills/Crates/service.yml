@@ -224,6 +224,8 @@
       weight: 4
     - id: VinylDiskKhlamidiya
       weight: 4
+    - id: VinylDiskPolnyyBak
+      weight: 4
 
 - type: entityTable
   id: RandomVinylSleeve
@@ -306,6 +308,8 @@
     - id: VinylKhlamidiya
       weight: 4
     - id: Vinylrippedjeans
+      weight: 4
+    - id: VinylPolnyyBak
       weight: 4
 
 - type: entity
