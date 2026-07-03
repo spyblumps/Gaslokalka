@@ -1,6 +1,6 @@
 
 - type: entity
-  name: Футболка Меллстроя
+  name: футболка Меллстроя
   description: Шо ты лыси плаки плаки
   id: ClothingUniformMellstroy
   parent: ClothingUniformBase
