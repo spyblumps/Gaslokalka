@@ -1,0 +1,6 @@
+ipython
+torch
+soundfile
+Flask
+jsonify
+git+https://github.com/Desklop/StressRNN
