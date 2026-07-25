@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "EXNK4650 - github.com/Leva0408",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "poster_red",
+      "directions": 1,
+      "delays": [[1]]
+    }
+  ]
+}

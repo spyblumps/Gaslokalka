@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2026 Elarten <matv20102010@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Disruption
+
+- type: listing
+  id: WeaponSubMachineGunC20rToy
+  name: uplink-c20r-toy-name
+  description: uplink-c20r-toy-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+  productEntity: WeaponSubMachineGunC20rToy
+  cost:
+    Telecrystal: 30
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - ContractorUplink
+      - NukeOpsUplink
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MagazinePistolSubMachineGunFoam
+  name: uplink-c20r-ammo-toy-name
+  description: uplink-c20r-ammo-toy-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
+  productEntity: MagazinePistolSubMachineGunFoam
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - ContractorUplink
+      - NukeOpsUplink
+

@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2023 Alex Evgrashin <aevgrashin@yandex.ru>
+# SPDX-FileCopyrightText: 2023 Visne <39844191+Visne@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2023 justproggramer <68664576+Klaypexx@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2023 lzk228 <124214523+lzk228@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2024 Unkn0wn_Gh0st <shadowstalkermll@gmail.com>
+# SPDX-FileCopyrightText: 2024 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: soundCollection
@@ -31,11 +41,6 @@
     - /Audio/Effects/Emotes/clap2.ogg
     - /Audio/Effects/Emotes/clap3.ogg
     - /Audio/Effects/Emotes/clap4.ogg
-
-- type: soundCollection
-  id: ClapSingle
-  files:
-  - /Audio/Effects/Emotes/clap-single.ogg
 
 - type: soundCollection
   id: Snaps
@@ -106,11 +111,6 @@
   - /Audio/Items/Toys/hew.ogg
 
 - type: soundCollection
-  id: XenoborgScream
-  files:
-  - /Audio/Voice/Xenoborg/xenoborg_scream.ogg
-
-- type: soundCollection
   id: XenoborgLaugh
   files:
   - /Audio/Voice/Xenoborg/xenoborg_laugh_1.ogg
@@ -147,3 +147,28 @@
   id: XenoborgPing
   files:
   - /Audio/Voice/Xenoborg/xenoborg_ping.ogg
+
+- type: soundCollection
+  id: TolyaZanykal
+  files:
+    - /Audio/Voice/Human/tolya.ogg
+
+- type: soundCollection
+  id: Kransniy
+  files:
+    - /Audio/Voice/Human/ia-uzhe-krasnyi.ogg
+
+- type: soundCollection
+  id: SpasiboHorosho
+  files:
+    - /Audio/Voice/Human/spasibo-khorosho-melstroi.ogg
+
+- type: soundCollection
+  id: Idinahuy
+  files:
+    - /Audio/Voice/Human/idi-nahuy.ogg
+
+- type: soundCollection
+  id: Aura
+  files:
+    - /Audio/Voice/Human/aura.ogg

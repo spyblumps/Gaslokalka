@@ -1,0 +1,24 @@
+
+- type: entity
+  parent: [ OrganHumanHeart, BaseSyndicateContraband ]
+  id: OrganHeartGassyStan
+  name: газзистан
+  description: 
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Goobstation/Objects/Misc/sandevistan.rsi
+    state: icon
+    scale: 0.5, 0.5
+  - type: OrganActions
+    actions:
+    - ActionToggleSandevistan
+  - type: Organ
+    onAdd:
+    - type: SandevistanUser
+      slowfieldEnabled: true
+      thresholds:
+        Warning: 15
+        Shaking: 30
+        Damage: 45
+        Disable: 60

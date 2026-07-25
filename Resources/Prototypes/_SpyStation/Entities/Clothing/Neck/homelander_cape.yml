@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckHomelanderCape
+  name: Плащ хоумлендера
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Neck/homelander_cape.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak

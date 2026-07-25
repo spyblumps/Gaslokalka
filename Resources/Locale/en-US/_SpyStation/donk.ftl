@@ -1,0 +1,21 @@
+advertisement-donk-65 = Just microwave and eat!
+advertisement-donk-67 = The original home of the Donk Pocket!
+advertisement-donk-3 = The original!
+advertisement-donk-4 = You wanna put a bangin' Donk on it!
+advertisement-donk-5 = The best!
+advertisement-donk-6 = The seasoned traitor's food of choice!
+advertisement-donk-7 = Now with 12% more omnizine!
+advertisement-donk-8 = Eat DONK or DIE!
+advertisement-donk-9 = The galaxy's most popular microwavable snack food!*
+advertisement-donk-10 = Try our NEW Ready-Donk Meals!
+
+advertisement-donk-toy-1 = Get your cool toys today!
+advertisement-donk-toy-2 = Trigger a valid hunter today!
+advertisement-donk-toy-3 = Quality toy weapons for cheap prices!
+advertisement-donk-toy-4 = Give them to HoPs for all access!
+advertisement-donk-toy-5 = Give them to HoS to get permabrigged!
+advertisement-donk-toy-6 = Feel robust with your toys!
+advertisement-donk-toy-7 = Express your inner child today!
+advertisement-donk-toy-8 = Toy weapons don't kill people, but valid hunters do!
+advertisement-donk-toy-9 = Who needs responsibilities when you have toy weapons?
+advertisement-donk-toy-10 = Make your next murder FUN!

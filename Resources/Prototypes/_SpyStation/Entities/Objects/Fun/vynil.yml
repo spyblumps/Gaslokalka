@@ -1,0 +1,65 @@
+- type: entity
+  name: Виниловая пластинка "Lokalka Motto"
+  id: VinylDiskLokalkaMotto
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: valid-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/lokalkadeviz.ogg
+
+- type: entity
+  name: Виниловая пластинка "Lokalka Slogan"
+  id: VinylDiskLokalkaSlogan
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: darkblue-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/lokalkaslogan.ogg
+
+- type: entity
+  name: Виниловая пластинка "Lokalka Hymn"
+  id: VinylDiskLokalkaHymn
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: banana-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/lokalkagimn.ogg
+
+- type: entity
+  name: Виниловая пластинка "Lokalka MeshUp"
+  id: VinylDiskLokalkaMeshup
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: white-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/_SpyStation/vynils/meshaplocal.ogg
+
+- type: entity
+  name: vremya nochi 2 chasa
+  id: VinylDiskrippedjeans
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: darkblue-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/bankomat.ogg
+
+- type: entity
+  name: localbullshit
+  id: VinylDiskKhlamidiya
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: darkblue-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/mellstroy_peak.ogg

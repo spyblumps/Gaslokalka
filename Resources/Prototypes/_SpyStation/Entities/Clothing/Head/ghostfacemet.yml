@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: GhostfaceMet
+  name: метка гоустфейса
+  description: Тут типо играет музыка погони гоустфейса.mp3
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Head/ghostfacemet.rsi
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Head/ghostfacemet.rsi
+    equipSound: /Audio/_SpyStation/items/ghostfacemet.ogg

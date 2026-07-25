@@ -1,0 +1,14 @@
+- type: entity
+  name: ДУБИНКА ТУН ТУН САХУРА
+  parent: BaseBallBat
+  id: WeaponMeleeTunTunBaton
+  description: ЗРЯ
+  categories: [ DoNotMap ]
+  components:
+  - type: MeleeThrowOnHit
+    distance: 50
+    speed: 30
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 399

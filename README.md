@@ -1,10 +1,10 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/Leva0408/Gaslokalka/1d5204c4e34b6713524bf5aaae6804e76898d5f5/Resources/Textures/_SpyStation/Logo/github.svg" /></p>
 
-CorvaxGoob - это активно модифицируемый и основывающийся форк от всем изестного репозитория Goob Station, направленный на его перевод и создание собственного контента.
+Gaslokalka - это самый газовый и основывающийся форк от всем изестного репозитория CorvaxGoob. 
 
 ## Ссылки
 
-[Наш Discord](https://discord.station14.ru) | [Наша Вики](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14) | [Основной репозиторий Goob Station](https://github.com/Goob-Station/Goob-Station)
+[Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14) | [Основной репозиторий Goob Station](https://github.com/Goob-Station/Goob-Station) | [Репозиторий CorvaxGoob](https://github.com/space-syndicate/Goob-Station)
 
 ## Документация
 

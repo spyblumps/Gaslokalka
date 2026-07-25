@@ -1,0 +1,44 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieNavalniy
+  name: Алексей Локальный
+  description: Всем привет это я Алексей Локальный и я зашёл на локалку, и не знаю что мне тут делать дебаг просить или ещё что-то?
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Fun/Plushies/alekseylocalniy.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_SpyStation/Items/alekseylocalniy.ogg
+      params:
+        volume: -8
+  - type: Clothing
+    quickEquip: false
+    sprite: _SpyStation/Objects/Fun/Plushies/alekseylocalniy.rsi
+    slots:
+    - HEAD

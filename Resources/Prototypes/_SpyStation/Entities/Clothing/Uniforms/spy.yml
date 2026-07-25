@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueSpy
+  name: синий французский костюм
+  description: Я никогда не был на вашей стороне.
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Uniforms/spy/blue.rsi #сюда путь
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Uniforms/spy/blue.rsi #сюда путь
+
+- type: entity
+  parent: ClothingUniformJumpsuitBlueSpy
+  id: ClothingUniformJumpsuitRedSpy
+  name: красный французский костюм
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Clothing/Uniforms/spy/red.rsi #сюда путь
+  - type: Clothing
+    sprite: _SpyStation/Clothing/Uniforms/spy/red.rsi #сюда путь

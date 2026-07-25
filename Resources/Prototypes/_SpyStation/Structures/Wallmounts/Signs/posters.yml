@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 EXNK4650 <github.com/Leva0408>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: PosterBase
+  id: PosterContrabandPosterRed
+  name: "I'm Red suka"
+  description: "I'm already red. It won't work culturally nahui."
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Structures/Wallmounts/posters.rsi
+    state: poster_red

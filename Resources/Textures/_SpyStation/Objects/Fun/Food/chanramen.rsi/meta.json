@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": null,
+    "copyright": "EXNK4650, DOSHIRAK",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [ 
+        {
+            "name": "chanramen"
+        }
+    ]
+}
