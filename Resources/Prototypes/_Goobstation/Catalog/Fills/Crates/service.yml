@@ -303,10 +303,6 @@
       weight: 1
     - id: VinylSleeveWhite
       weight: 1
-    - id: VinylKhlamidiya
-      weight: 4
-    - id: Vinylrippedjeans
-      weight: 4
 
 - type: entity
   id: CrateHolySupplies

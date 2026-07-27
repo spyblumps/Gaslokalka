@@ -44,7 +44,7 @@
 
 - type: entity
   name: vremya nochi 2 chasa
-  id: Vinylrippedjeans
+  id: VinylDiskrippedjeans
   parent: BaseVinylDisk
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   name: localbullshit
-  id: VinylKhlamidiya
+  id: VinylDiskKhlamidiya
   parent: BaseVinylDisk
   components:
   - type: Sprite
