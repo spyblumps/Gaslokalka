@@ -22,3 +22,15 @@
   background: /Textures/_SpyStation/LobbyScreens/enthony.webp
   name: Энтони Хендерсон
   artist: TheIncredibleBaton
+
+- type: lobbyBackground 
+  id: enthony2
+  background: /Textures/_SpyStation/LobbyScreens/enthony_on_a_gas_giant.webp
+  name: Геймплей на Gaslokalka
+  artist: TheIncredibleBaton
+
+- type: lobbyBackground 
+  id: elmark
+  background: /Textures/_SpyStation/LobbyScreens/mark_bespapov.webp
+  name: Марк Мачо
+  artist: TheIncredibleBaton
