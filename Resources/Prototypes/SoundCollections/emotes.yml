@@ -172,3 +172,13 @@
   id: Aura
   files:
     - /Audio/Voice/Human/aura.ogg
+
+- type: soundCollection
+  id: Allo
+  files:
+    - /Audio/Voice/Human/allo.ogg
+
+- type: soundCollection
+  id: Yeehaaaw
+  files:
+    - /Audio/Voice/Human/yeehaaw.ogg
