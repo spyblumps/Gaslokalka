@@ -48,7 +48,7 @@
   parent: BaseVinylDisk
   components:
   - type: Sprite
-    state: darkblue-vinyl-disk
+    state: black-vinyl-disk
   - type: Vinyl
     song:
       path: /Audio/Lobby/bankomat.ogg
@@ -59,7 +59,29 @@
   parent: BaseVinylDisk
   components:
   - type: Sprite
-    state: darkblue-vinyl-disk
+    state: blue-vinyl-disk
   - type: Vinyl
     song:
       path: /Audio/Lobby/mellstroy_peak.ogg
+
+- type: entity
+  name: pizdec
+  id: VinylDiskPizdec
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: banana-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/koch_bratan.ogg
+
+- type: entity
+  name: hueta
+  id: VinylDiskKochGolda
+  parent: BaseVinylDisk
+  components:
+  - type: Sprite
+    state: white-vinyl-disk
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/koch_golda.ogg

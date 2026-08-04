@@ -224,6 +224,18 @@
       weight: 4
     - id: VinylDiskKhlamidiya
       weight: 4
+    - id: VinylDiskPizdec
+      weight: 4
+    - id: VinylDiskLokalkaMeshup
+      weight: 4
+    - id: VinylDiskLokalkaHymn
+      weight: 4
+    - id: VinylDiskLokalkaSlogan
+      weight: 4
+    - id: VinylDiskLokalkaMotto
+      weight: 4
+    - id: VinylDiskKochGolda
+      weight: 4
 
 - type: entityTable
   id: RandomVinylSleeve
