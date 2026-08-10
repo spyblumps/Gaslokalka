@@ -1902,8 +1902,9 @@
     speechVerb: SmallMob
     allowedEmotes: ['Squeak']
   - type: Sprite
-    drawdepth: SmallMobs
-    sprite: Mobs/Animals/mouse.rsi
+    sprite: /Textures/Mobs/Animals/mouse.rsi/
+    state: icon
+    scale: 0.125, 0.125
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mouse-0
@@ -1914,9 +1915,6 @@
     noMovementLayers:
       movement:
         state: mouse-0
-  - type: Item
-    size: Tiny
-    heldPrefix: 0
   - type: Clothing
     quickEquip: false
     sprite: Mobs/Animals/mouse.rsi
@@ -1955,11 +1953,11 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      10: Critical
-      20: Dead
+      65: Critical
+      200: Dead
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
-    baseSprintSpeed : 5
+    baseSprintSpeed : 6.5
   - type: DamageStateVisuals
     states:
       Alive:
@@ -2039,14 +2037,14 @@
   # TODO: Remove CombatMode when Prototype Composition is added
   - type: CombatMode
   - type: MeleeWeapon
-    altDisarm: false # Sorry mouse shove lovers.
+    altDisarm: true # Gaslokalka edit.
     soundHit:
       path: /Audio/Effects/bite.ogg
     angle: 0
     animation: WeaponArcBite
     damage:
       types:
-        Slash: 1 # Goobstation - LET THE HORDES ROAM!!
+        Blunt: 65 # Gaslokalka - что то не так?
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:
@@ -2141,6 +2139,12 @@
           32:
             sprite: _Goobstation/Mobs/Animals/mouse/displacement.rsi
             state: head
+  - type: WaddleAnimation # Gaslokalka
+  - type: AmbientSound
+    range: 4
+    volume: -12
+    sound:
+      path: /Audio/_SpyStation/items/fuck.ogg # сладость
   # </Goobstation>
 
 - type: entity

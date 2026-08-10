@@ -168,7 +168,7 @@
   id: Trinkets
   name: loadout-group-trinkets
   minLimit: 0
-  maxLimit: 3
+  maxLimit: 65
   loadouts:
   - FlowerWreath
   - Hairflower
@@ -246,12 +246,6 @@
   - ClothingNeckSolarisPin
   - ClothingNeckWhiteListPin
   # CorvaxGoob-Loadouts-End
-  # Corvax-Next-Start
-  - WristwatchBlack
-  - WristwatchPocket
-  - WristwatchLeather
-  - Wristwatch
-  # Corvax-Next-End
   # Begin DeltaV Additions
   - GoldRing
   - SilverRing
@@ -260,6 +254,14 @@
   - TapeRecorder
   - DrinkOniGourd
   # End DeltaV Additions
+  # Gaslokalka Start
+  - PlushieEnthony
+  - PlushieLevAndAndrey
+  - PlushieMarkBespalov
+  - PlushieSoraWade
+  - PlushieNavalniy
+  - PlushieJohnAndreevich
+  # Gaslokalka End
 
 - type: loadoutGroup
   id: Glasses

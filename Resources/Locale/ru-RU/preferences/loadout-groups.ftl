@@ -3,6 +3,7 @@ loadout-group-species-restriction = Этот предмет недоступен
 # Miscellaneous
 loadout-group-trinkets = Безделушки
 loadout-group-glasses = Очки
+loadout-gaslokalka-plushies = Метакомпашка
 loadout-group-backpack = Рюкзак
 loadout-group-instruments = Инструменты
 loadout-group-survival-basic = Аварийный запас

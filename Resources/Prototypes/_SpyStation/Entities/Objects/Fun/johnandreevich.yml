@@ -1,0 +1,44 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieJohnAndreevich
+  name: Джон Андреевич
+  description: Иди и насри звуком
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Fun/Plushies/johnandreevich.rsi
+    state: icon
+  - type: Item
+    sprite: _SpyStation/Objects/Fun/Plushies/johnandreevich.rsi
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      params:
+        volume: 0
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      volume: 0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      volume: 0
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      params:
+        volume: 0
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      params:
+        volume: 0
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_SpyStation/items/john_govno.ogg
+      params:
+        volume: 0
+  - type: AmbientSound
+    range: 8
+    volume: -8
+    sound:
+      path: /Audio/_SpyStation/items/john.ogg

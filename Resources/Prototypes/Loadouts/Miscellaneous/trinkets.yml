@@ -706,3 +706,40 @@
     back:
     - TowelColorGold
   groupBy: "towels"
+
+# Gaslokalka
+- type: loadout
+  id: PlushieEnthony
+  storage:
+    back:
+    - PlushieEnthony
+
+- type: loadout
+  id: PlushieLevAndAndrey
+  storage:
+    back:
+    - PlushieLevAndAndrey
+
+- type: loadout
+  id: PlushieMarkBespalov
+  storage:
+    back:
+    - PlushieMarkBespalov
+
+- type: loadout
+  id: PlushieSoraWade
+  storage:
+    back:
+    - PlushieSoraWade
+
+- type: loadout
+  id: PlushieNavalniy
+  storage:
+    back:
+    - PlushieNavalniy
+
+- type: loadout
+  id: PlushieJohnAndreevich
+  storage:
+    back:
+    - PlushieJohnAndreevich

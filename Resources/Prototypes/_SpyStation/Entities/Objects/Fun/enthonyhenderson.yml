@@ -1,0 +1,44 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieEnthony
+  name: Энтони Хендерсон
+  description: Сука почему он в гавайской рубашке
+  components:
+  - type: Sprite
+    sprite: _SpyStation/Objects/Fun/Plushies/enthonyhenderson.rsi
+    state: icon
+  - type: Item
+    sprite: _SpyStation/Objects/Fun/Plushies/enthonyhenderson.rsi
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      params:
+        volume: 0
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      volume: 0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      volume: 0
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      params:
+        volume: 0
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      params:
+        volume: 0
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_SpyStation/items/enthony_govno.ogg
+      params:
+        volume: 0
+  - type: AmbientSound
+    range: 8
+    volume: -8
+    sound:
+      path: /Audio/_SpyStation/items/enthony.ogg
