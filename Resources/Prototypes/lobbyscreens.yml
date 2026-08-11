@@ -12,9 +12,9 @@
   artist: TheIncredibleBaton
 
 - type: lobbyBackground 
-  id: incrediblemark
-  background: /Textures/_SpyStation/LobbyScreens/incredible_mark.webp
-  name: Инкридибл Марк
+  id: auraofgaslokalka
+  background: /Textures/_SpyStation/LobbyScreens/gaslokalka_station.webp
+  name: Газлокалка с аурой
   artist: TheIncredibleBaton
 
 - type: lobbyBackground 
@@ -30,7 +30,7 @@
   artist: TheIncredibleBaton
 
 - type: lobbyBackground 
-  id: elmark
-  background: /Textures/_SpyStation/LobbyScreens/mark_bespapov.webp
-  name: Марк Мачо
+  id: enthonyshotgun
+  background: /Textures/_SpyStation/LobbyScreens/gaslokalka_station_65.webp
+  name: Энтони круто стоит
   artist: TheIncredibleBaton
