@@ -40,3 +40,15 @@
   background: /Textures/_SpyStation/LobbyScreens/gaslokalka_crew.webp
   name: Отряд газлокалки
   artist: TheIncredibleBaton # главное себя любимого хорошо нарисовать
+
+- type: lobbyBackground 
+  id: metacoop
+  background: /Textures/_SpyStation/LobbyScreens/metacoop.webp
+  name: Метакоопим 24 часа
+  artist: TheIncredibleBaton
+
+- type: lobbyBackground 
+  id: gabrielwade
+  background: /Textures/_SpyStation/LobbyScreens/gabrielwade.webp
+  name: Габриэль Уэйд
+  artist: TheIncredibleBaton
