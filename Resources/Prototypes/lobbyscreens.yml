@@ -34,3 +34,9 @@
   background: /Textures/_SpyStation/LobbyScreens/gaslokalka_station_65.webp
   name: Энтони круто стоит
   artist: TheIncredibleBaton
+
+- type: lobbyBackground 
+  id: gaslokalkacrew
+  background: /Textures/_SpyStation/LobbyScreens/gaslokalka_crew.webp
+  name: Отряд газлокалки
+  artist: TheIncredibleBaton # главное себя любимого хорошо нарисовать
