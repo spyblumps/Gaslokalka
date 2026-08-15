@@ -722,10 +722,16 @@
     - PlushieEnthony
 
 - type: loadout
-  id: PlushieLevAndAndrey
+  id: PlushieLevNoskov
   storage:
     back:
-    - PlushieLevAndAndrey
+    - PlushieLevNoskov
+
+- type: loadout
+  id: PlushieAndreyNebesniy
+  storage:
+    back:
+    - PlushieAndreyNebesniy
 
 - type: loadout
   id: PlushieMarkBespalov
