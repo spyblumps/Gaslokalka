@@ -52,3 +52,15 @@
   background: /Textures/_SpyStation/LobbyScreens/gabrielwade.webp
   name: Габриэль Уэйд
   artist: TheIncredibleBaton
+
+- type: lobbyBackground 
+  id: mrandreynebesny
+  background: /Textures/_SpyStation/LobbyScreens/mrandreynebesny.webp
+  name: Мистер Андрей Небесеный
+  artist: EXNK4650
+
+- type: lobbyBackground 
+  id: gabrielwade
+  background: /Textures/_SpyStation/LobbyScreens/razban.webp
+  name: Тебе отказали в обжаловании
+  artist: EXNK4650
