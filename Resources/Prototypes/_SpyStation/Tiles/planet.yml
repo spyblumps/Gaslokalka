@@ -1,0 +1,24 @@
+- type: tile
+  id: FloorMangoPlanetGrass
+  parent: BaseFloorPlanet
+  name: "пол трава манго планета"
+  sprite: /Textures/_Spystation/Tiles/Planet/MangoGrass/grass.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/_Spystation/Tiles/Planet/MangoGrass/single_edge.png
+    NorthEast: /Textures/_Spystation/Tiles/Planet/MangoGrass/single_edge.png
+    NorthWest: /Textures/_Spystation/Tiles/Planet/MangoGrass/single_edge.png
+    SouthWest: /Textures/_Spystation/Tiles/Planet/MangoGrass/single_edge.png
+    South: /Textures/_Spystation/Tiles/Planet/MangoGrass/double_edge.png
+    East: /Textures/_Spystation/Tiles/Planet/MangoGrass/double_edge.png
+    North: /Textures/_Spystation/Tiles/Planet/MangoGrass/double_edge.png
+    West: /Textures/_Spystation/Tiles/Planet/MangoGrass/double_edge.png
+  baseTurf: FloorPlanetDirt
+  footstepSounds:
+    collection: FootstepGrass

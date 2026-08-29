@@ -1,0 +1,413 @@
+- type: decal
+  id: MangoBusha1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: busha1
+
+- type: decal
+  id: MangoBusha2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: busha2
+
+- type: decal
+  id: MangoBusha3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: busha3
+
+- type: decal
+  id: MangoBushb1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushb1
+
+- type: decal
+  id: MangoBushb2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushb2
+
+- type: decal
+  id: MangoBushb3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushb3
+
+- type: decal
+  id: MangoBushc1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushc1
+
+- type: decal
+  id: MangoBushc2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushc2
+
+- type: decal
+  id: MangoBushc3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushc3
+
+- type: decal
+  id: MangoBushd1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushd1
+
+- type: decal
+  id: MangoBushd2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushd2
+
+- type: decal
+  id: MangoBushd3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushd3
+
+- type: decal
+  id: MangoBushd4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushd4
+
+- type: decal
+  id: MangoBushe1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushe1
+
+- type: decal
+  id: MangoBushe2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushe2
+
+- type: decal
+  id: MangoBushe3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushe3
+
+- type: decal
+  id: MangoBushe4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushe4
+
+- type: decal
+  id: MangoBushf1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushf1
+
+- type: decal
+  id: MangoBushf2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushf2
+
+- type: decal
+  id: MangoBushf3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushf3
+
+- type: decal
+  id: MangoBushg1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushg1
+
+- type: decal
+  id: MangoBushg2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushg2
+
+- type: decal
+  id: MangoBushg3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushg3
+
+- type: decal
+  id: MangoBushg4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushg4
+
+- type: decal
+  id: MangoBushh1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushh1
+
+- type: decal
+  id: MangoBushh2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushh2
+
+- type: decal
+  id: MangoBushh3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushh3
+
+- type: decal
+  id: MangoBushi1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushi1
+
+- type: decal
+  id: MangoBushi2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushi2
+
+- type: decal
+  id: MangoBushi3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushi3
+
+- type: decal
+  id: MangoBushi4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushi4
+
+- type: decal
+  id: MangoBushj1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushj1
+
+- type: decal
+  id: MangoBushj2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushj2
+
+- type: decal
+  id: MangoBushj3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushj3
+
+- type: decal
+  id: MangoBushk1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushk1
+
+- type: decal
+  id: MangoBushk2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushk2
+
+- type: decal
+  id: MangoBushk3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushk3
+
+- type: decal
+  id: MangoBushl1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushl1
+
+- type: decal
+  id: MangoBushl2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushl2
+
+- type: decal
+  id: MangoBushl3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushl3
+
+- type: decal
+  id: MangoBushl4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushl4
+
+- type: decal
+  id: MangoBushm1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushm1
+
+- type: decal
+  id: MangoBushm2
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushm2
+
+- type: decal
+  id: MangoBushm3
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushm3
+
+- type: decal
+  id: MangoBushm4
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushm4
+
+- type: decal
+  id: MangoBushn1
+  tags: ["flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _SpyStation/Decals/Flora/flora_mango_bushes.rsi
+    state: bushn1
