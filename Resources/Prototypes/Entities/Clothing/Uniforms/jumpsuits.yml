@@ -436,9 +436,9 @@
   description: Traditional chinese clothing.
   components:
   - type: Sprite
-    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/kimono.rsi # Goob
+    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
   - type: Clothing
-    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/kimono.rsi # Goob
+    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi # bro, why did you make the kimono black? 
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
