@@ -1,0 +1,56 @@
+- type: entity
+  parent: BeachBall
+  id: verity4
+  name: Верити
+  description: "Верити, почему ты кислый такой?"
+  components:
+  - type: Catchable
+    catchChance: 0.09
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.3
+          position: "0,-0.2"
+        density: 20
+        mask:
+        - ThrownItem
+        restitution: 1.2 # выше опасно делать
+        friction: 0.2
+  - type: LaunchOnTrigger
+    impulse: 100.0
+    keysIn:
+    - OnCollide
+  - type: StaminaDamageOnTrigger
+    stamina: 25.0
+    keysIn:
+    - OnCollide
+    targetUser: true
+  - type: DamageOnTrigger
+    damage:
+      types:
+        Blunt: 20
+    keysIn:
+    - OnCollide
+    targetUser: true
+  - type: PointLight
+    radius: 8
+    energy: 6
+    mask: /Textures/Effects/LightMasks/double_cone.png
+  - type: RgbLightController
+    cycleRate: 0.3
+  - type: Sprite
+    sprite: _SpyStation/Objects/Fun/Balls/verity4.rsi
+    state: icon
+  - type: Item
+    sprite: _SpyStation/Objects/Fun/Balls/verity4.rsi
+  - type: AmbientSound
+    range: 8
+    volume: -2
+    sound:
+      path: /Audio/_SpyStation/items/veritych.ogg
+  - type: Clothing
+    quickEquip: false
+    sprite: _SpyStation/Objects/Fun/Balls/verity4.rsi
+    slots:
+    - HEAD
