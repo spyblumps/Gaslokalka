@@ -243,8 +243,6 @@
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
     # Surprised: # Goob Commented by CorvaxGoob
       # path: /Audio/_Goobstation/Voice/surprised.ogg
-<<<<<<< HEAD
-=======
     Sigh: # Goob
       collection: MaleSigh
     Cough: # Goob
@@ -260,7 +258,6 @@
     ReptilianScreech: #Omu
       collection: ReptilianScreech
 
->>>>>>> upstream/master
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -297,8 +294,6 @@
       path: /Audio/_Goobstation/Voice/gulpexotic.ogg
     # Surprised: # Goob Commented by CorvaxGoob
       # path: /Audio/_Goobstation/Voice/surprised.ogg
-<<<<<<< HEAD
-=======
     Sigh: # Goob
       collection: FemaleSigh
     Cough: # Goob
@@ -313,7 +308,6 @@
       path: /Audio/_Omu/Voice/Reptilian/Reptilian_lizard_rattle.ogg
     ReptilianScreech: #Omu
       collection: ReptilianScreech
->>>>>>> upstream/master
 
 - type: emoteSounds
   id: MaleSlime
@@ -472,6 +466,13 @@
       collection: VoxHiss
     Caw:
       collection: HarpyCaws
+    Bagawk:
+      path: /Audio/_Mono/Voice/bagawk.ogg 
+    # Goob end
+    #Gasp: # Goob
+    #  path: /Audio/Effects/Gasp/vox_gasp.ogg
+    #DefaultDeathgasp:
+    #  path: /Audio/Effects/Gasp/vox_DeathGasp.ogg
   params:
     variation: 0.125
 
